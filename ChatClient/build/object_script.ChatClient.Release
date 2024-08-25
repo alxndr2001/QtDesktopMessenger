@@ -1,0 +1,17 @@
+release/client.o
+release/authorization.o
+release/chatlist.o
+release/chatwindow.o
+release/maininterface.o
+release/message.o
+release/messagehistory.o
+release/main.o
+release/mainwindow.o
+release/moc_client.o
+release/moc_authorization.o
+release/moc_chatlist.o
+release/moc_chatwindow.o
+release/moc_maininterface.o
+release/moc_message.o
+release/moc_messagehistory.o
+release/moc_mainwindow.o
