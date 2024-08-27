@@ -19,7 +19,7 @@ void Message::paintEvent(QPaintEvent *event) {
     Q_UNUSED(event);
     QPainter painter(this);
     if (isSender_) {
-        painter.setBrush(QColor("#5DADE2"));
+        painter.setBrush(QColor("#43454f"));
     } else {
         painter.setBrush(QColor("#7DCEA0"));
     }

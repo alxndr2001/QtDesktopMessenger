@@ -17,10 +17,7 @@ public:
     void addMessage(const QString& text, bool isSender);
 private:
     Client* client_;
-    QScrollArea* scrollArea;
-    QVBoxLayout* vlayout;
-    QVBoxLayout *containerLayout;
-
+    QVBoxLayout* messagesLayout; // Messages layout which uses to add messages in
 };
 
 #endif // MESSAGEHISTORY_H

@@ -13,6 +13,14 @@ ChatWindow::ChatWindow(Client* client, const QString& chatName, QWidget *parent)
     msghistory = new MessageHistory(this, client_);
     layout->addWidget(msghistory);
 
+    msghistory->addMessage("Hello", 1);
+    msghistory->addMessage("Hello, mate!", 0);
+    msghistory->addMessage("How are you?", 1);
+    msghistory->addMessage("I'm fine, thanks!", 0);
+    msghistory->addMessage("What about you?", 1);
+    msghistory->addMessage("I'm doing good!", 0);
+    msghistory->addMessage("I've bought a new laptop last week", 0);
+
     QHBoxLayout* messageInputLayout = new QHBoxLayout();
     layout->addLayout(messageInputLayout);
 
